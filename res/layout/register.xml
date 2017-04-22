@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/regback" android:weightSum="1">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="508dp">
+        	<TextView android:textStyle="bold" android:id="@+id/enrol" android:textColor="#000000" android:text="Enrollment" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="16dp"></TextView>
+		<EditText android:hint="Username" android:id="@+id/regusertext" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/enrol" android:layout_alignParentLeft="true" android:layout_marginTop="26dp" android:layout_alignParentRight="true">
+		<requestFocus></requestFocus>
+		</EditText>
+		<EditText android:hint="Password" android:inputType="textPassword" android:id="@+id/regpasstext" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/regusertext" android:layout_alignParentLeft="true" android:layout_marginTop="26dp" android:layout_alignParentRight="true"></EditText>
+		<EditText android:hint="Mobile Number" android:inputType="phone" android:id="@+id/regphonetext" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/regpasstext" android:layout_alignParentLeft="true" android:layout_marginTop="33dp" android:layout_alignParentRight="true"></EditText>
+		<EditText android:hint="Optional Mobile Number" android:inputType="phone" android:id="@+id/alternatemobid" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/regphonetext" android:layout_alignParentLeft="true" android:layout_marginTop="33dp" android:layout_alignParentRight="true"></EditText>
+		<EditText android:hint="Mail - Id" android:inputType="textEmailAddress" android:id="@+id/regmailtext" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/alternatemobid" android:layout_alignParentLeft="true" android:layout_marginTop="30dp" android:layout_alignParentRight="true"></EditText>
+		<Button android:text="Submit" android:id="@+id/regbut" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_alignParentLeft="true"></Button>
+		</RelativeLayout>
+    </ScrollView>    
+</RelativeLayout>

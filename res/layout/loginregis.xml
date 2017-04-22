@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/loginreg" android:weightSum="1">    
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:src="@drawable/sign" android:layout_height="wrap_content" android:id="@+id/loginregR" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="62dp"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:id="@+id/loginregL" android:src="@drawable/login" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="60dp"></ImageView>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/loginregstatustext" android:textColor="#99000000" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/loginregL" android:layout_centerHorizontal="true" android:layout_marginTop="102dp"></TextView>
+    </RelativeLayout>    
+</LinearLayout>

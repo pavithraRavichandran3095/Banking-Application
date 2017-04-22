@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/userback">
+      <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Welcome to Wells Fargo Bank" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="14dp" android:textStyle="bold"></TextView>
+      <TextView android:id="@+id/userbankdepuser" android:textColor="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="18dp"></TextView>
+      <ImageView android:id="@+id/imageView1" android:maxWidth="250dp" android:src="@drawable/fund" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/userbankdepuser" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"></ImageView>
+      <TextView android:textColor="#000000" android:text="Account No:" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:layout_marginTop="14dp"></TextView>
+      <EditText android:layout_width="wrap_content" android:inputType="number" android:layout_height="wrap_content" android:id="@+id/userbankfundamnt" android:layout_below="@+id/textView3" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"></EditText>
+      <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/userbankfundacctno" android:layout_below="@+id/textView2" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"></EditText>
+      <TextView android:text="Amount (in Rs):" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView3" android:textColor="#000000" android:layout_height="wrap_content" android:layout_below="@+id/userbankfundacctno" android:layout_alignParentLeft="true"></TextView>
+      <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/fundt" android:id="@+id/userbankfundsub" android:layout_below="@+id/userbankfundamnt" android:layout_centerHorizontal="true" android:layout_marginTop="19dp"></ImageView>
+      <TextView android:layout_marginBottom="8dp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/userbankfundlogout" android:layout_height="wrap_content" android:textStyle="bold" android:text="Log out" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/userbankfundsub"></TextView>
+      <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/userbankfundhome" android:layout_height="wrap_content" android:textStyle="bold" android:text="Home" android:layout_alignBaseline="@+id/userbankfundlogout" android:layout_alignBottom="@+id/userbankfundlogout" android:layout_alignLeft="@+id/textView1"></TextView>
+   </RelativeLayout>
+</LinearLayout>

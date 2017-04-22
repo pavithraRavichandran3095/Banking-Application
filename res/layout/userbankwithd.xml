@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/userback">
+      <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Welcome to Wells Fargo Bank" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="14dp" android:textStyle="bold"></TextView>
+      <TextView android:id="@+id/userbankdepuser" android:textColor="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="18dp"></TextView>
+      <ImageView android:id="@+id/imageView1" android:maxWidth="250dp" android:src="@drawable/withdraw" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true"></ImageView>
+      <TextView android:id="@+id/textView2" android:textColor="#000000" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Amount (in Rs):" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true"></TextView>
+      <EditText android:id="@+id/userwithamount" android:layout_height="wrap_content" android:layout_width="wrap_content" android:inputType="number" android:layout_below="@+id/textView2" android:layout_alignParentLeft="true" android:layout_marginTop="22dp" android:layout_alignParentRight="true"></EditText>
+      <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/withd" android:id="@+id/userbankwithsub" android:layout_below="@+id/userwithamount" android:layout_centerHorizontal="true"></ImageView>
+      <TextView android:layout_marginBottom="8dp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/userbankwithlogout" android:layout_height="wrap_content" android:textStyle="bold" android:text="Log out" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/userbankwithsub"></TextView>
+      <TextView android:layout_marginBottom="8dp" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/userbankwithdhome" android:layout_height="wrap_content" android:text="Home" android:layout_alignParentBottom="true" android:layout_alignLeft="@+id/textView1"></TextView>
+   </RelativeLayout>
+</LinearLayout>

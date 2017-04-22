@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/loginreg1">
+	<ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1"
+		android:layout_height="match_parent">
+		<RelativeLayout android:id="@+id/linearLayout1"
+			android:layout_width="match_parent" android:layout_height="483dp">
+			<TextView android:text="Banking Application" android:layout_height="wrap_content"
+				android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true" android:layout_marginTop="28dp"></TextView>
+			<EditText android:hint="Username" android:text=""
+				android:layout_height="wrap_content" android:id="@+id/logactusertext"
+				android:layout_width="wrap_content" android:layout_below="@+id/textView1"
+				android:layout_marginTop="86dp" android:layout_alignParentRight="true"
+				android:layout_alignParentLeft="true">
+				<requestFocus></requestFocus>
+			</EditText>
+			<EditText android:hint="Password" android:text=""
+				android:layout_height="wrap_content" android:id="@+id/logactpasstext"
+				android:layout_width="wrap_content" android:inputType="textPassword"
+				android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+				android:layout_alignParentRight="true"></EditText>
+			<ImageView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:src="@drawable/homeb"
+				android:id="@+id/homeimg" android:layout_below="@+id/logactpasstext"
+				android:layout_alignParentLeft="true" android:layout_marginLeft="30dp"
+				android:layout_marginTop="275dp"></ImageView>
+			<ImageView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:src="@drawable/subb"
+				android:id="@+id/subimg" android:layout_alignTop="@+id/homeimg"
+				android:layout_alignParentRight="true" android:layout_marginRight="27dp"></ImageView>
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

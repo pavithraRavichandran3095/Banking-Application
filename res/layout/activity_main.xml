@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3" >
+
+    <com.covertatt.CirclesDrawingView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignTop="@+id/button5"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button8"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button7"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button8"
+        android:layout_alignLeft="@+id/button4"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button9"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignTop="@+id/button8"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button10"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_toRightOf="@+id/button9"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/button10"
+        android:text=" " 
+        android:visibility="invisible"/>
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton2" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBaseline="@+id/pinbutton1" -->
+<!--         android:layout_alignBottom="@+id/pinbutton1" -->
+<!--         android:layout_toRightOf="@+id/pinbutton1" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="2" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton3" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBaseline="@+id/pinbutton2" -->
+<!--         android:layout_alignBottom="@+id/pinbutton2" -->
+<!--         android:layout_toRightOf="@+id/pinbutton2" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="3" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton5" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@+id/pinbutton1" -->
+<!--         android:layout_toLeftOf="@+id/pinbutton2" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="5" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton6" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBaseline="@+id/pinbutton5" -->
+<!--         android:layout_alignBottom="@+id/pinbutton5" -->
+<!--         android:layout_alignLeft="@+id/pinbutton2" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="6" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton7" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBaseline="@+id/pinbutton6" -->
+<!--         android:layout_alignBottom="@+id/pinbutton6" -->
+<!--         android:layout_alignLeft="@+id/button10" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="7" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton4" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBaseline="@+id/pinbutton3" -->
+<!--         android:layout_alignBottom="@+id/pinbutton3" -->
+<!--         android:layout_toRightOf="@+id/pinbutton3" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="4" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton8" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBaseline="@+id/pinbutton7" -->
+<!--         android:layout_alignBottom="@+id/pinbutton7" -->
+<!--         android:layout_toRightOf="@+id/pinbutton7" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="8" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton9" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_toLeftOf="@+id/pinbutton6" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="9" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton10" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_toLeftOf="@+id/pinbutton7" -->
+<!--         android:onClick="buttonOnClick" -->
+<!--         android:text="0" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/conformbotton" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignLeft="@+id/pinbutton7" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_alignRight="@+id/pinbutton8" -->
+<!--         android:text="conform" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/pinbutton1" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:layout_below="@+id/textView1" -->
+<!--         android:layout_marginLeft="46dp" -->
+<!--         android:text="1" /> -->
+
+    <Button
+        android:id="@+id/button11"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9"
+        android:layout_toLeftOf="@+id/button10"
+        android:text=" "
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="57dp"
+        android:text=" "
+        android:visibility="invisible" />
+
+</RelativeLayout>
